@@ -1,4 +1,4 @@
-#!/Users/prannavshankar/Duke/BME271/audio_fingerprinting/venv/bin/python3
+#!/Users/prannavshankar/Duke/BME271/audio-fingerprinting/venv/bin/python3.9
 # -*- coding: utf-8 -*-
 import re
 import sys

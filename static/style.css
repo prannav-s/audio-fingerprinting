@@ -1,0 +1,74 @@
+/* Reset some default browser styles for consistency */
+body, h1, form, input, button, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background gradient to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the main container */
+.container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Style the heading */
+h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #4e54c8;
+}
+
+/* Style the form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Style the file input */
+input[type="file"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    padding: 0.75rem;
+    background-color: #4e54c8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Change button color on hover */
+button[type="submit"]:hover {
+    background-color: #3b3fc1;
+}
+
+/* Style the result display area */
+#result {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: #333;
+}
