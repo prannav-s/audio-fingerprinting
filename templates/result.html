@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Match Results</title>
+</head>
+<body>
+    <h1>Match Results</h1>
+    <h2>Predicted Song: {{ results.predicted_song }}</h2>
+    <h3>Match Scores:</h3>
+    <ul>
+        {% for song, score in results.match_scores.items() %}
+        <li>{{ song }}: {{ score }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Try Another File</a>
+</body>
+</html>
